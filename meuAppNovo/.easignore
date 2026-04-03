@@ -1,0 +1,12 @@
+node_modules
+.expo
+.expo-shared
+.git
+.gitignore
+.easignore
+npm-debug.log
+yarn-error.log
+.env
+android
+ios
+.vscode
