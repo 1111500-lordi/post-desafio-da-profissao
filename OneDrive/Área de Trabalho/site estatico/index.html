@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Manual de Emergência Digital</title>
+<style>
+    .info-academica{
+    display:inline-block;
+    margin-bottom:25px;
+    padding:12px 25px;
+    border-radius:10px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(4px);
+    font-size:1.05rem;
+    color:white;
+    line-height:1.6;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Tahoma,sans-serif;background:#f4f7fb;color:#333;line-height:1.6}
+header{background:linear-gradient(135deg,#1e3c72,#2a5298);color:#fff;padding:60px 20px;text-align:center}
+header h1{font-size:2.8rem}
+.logos{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:40px;
+    margin-bottom:25px;
+    flex-wrap:wrap;
+}
+
+.logos img{
+    height:70px;
+    object-fit:contain;
+}
+
+.credits{
+    margin-top:15px;
+    font-size:0.85rem;
+    opacity:0.8;
+}
+nav{position:sticky;top:0;background:#fff;padding:15px;box-shadow:0 2px 8px rgba(0,0,0,.1);z-index:999}
+nav ul{display:flex;gap:15px;justify-content:center;flex-wrap:wrap;list-style:none}
+nav a{text-decoration:none;color:#2a5298;font-weight:bold}
+.container{max-width:1200px;margin:auto;padding:20px}
+.section-title{margin:40px 0 20px;color:#1e3c72}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:#fff;padding:20px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.card h3{margin-bottom:10px}
+.warning{border-left:6px solid #e74c3c}
+.success{border-left:6px solid #27ae60}
+.attention{border-left:6px solid #f39c12}
+ul,ol{padding-left:20px}
+footer{background:#1e3c72;color:#fff;text-align:center;padding:30px;margin-top:40px}
+.search{width:100%;padding:12px;border-radius:8px;border:1px solid #ccc;margin:20px 0}
+.badge{display:inline-block;padding:4px 8px;border-radius:5px;color:#fff;font-size:.8rem}
+.red{background:#e74c3c}
+.yellow{background:#f39c12}
+.green{background:#27ae60}
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="logos">
+    <img src="Imagem1.png" alt="Atitus Educação">
+    <img src="Imagem2.png" alt="Ciência da Computação">
+</div>
+
+<div class="info-academica">
+    Projeto Acadêmico da disciplina de Desafio da Profissão<br>
+    Prof. Suelles S. Sotille • Semestre 2026/01
+</div>
+
+<h1>🛡️ Manual de Emergência Digital</h1>
+
+<p>
+Guia gratuito para prevenção, recuperação e resposta a golpes,
+invasões e vazamentos de dados.
+</p>
+
+</header>
+
+<nav>
+<ul>
+<li><a href="#prevencao">Prevenção</a></li>
+<li><a href="#hackeado">Fui Hackeado</a></li>
+<li><a href="#casos">Casos Reais</a></li>
+<li><a href="#golpes">Golpes</a></li>
+<li><a href="#checklist">Checklist</a></li>
+</ul>
+</nav>
+
+<div class="container">
+
+<input class="search" type="text" placeholder="Pesquise por WhatsApp, PIX, Instagram, CPF, Banco...">
+
+<h2 id="prevencao" class="section-title">🛡️ Dicas de Prevenção</h2>
+
+<div class="grid">
+<div class="card success">
+<h3>📧 Segurança no E-mail</h3>
+<ul>
+<li>Use senhas únicas.</li>
+<li>Ative autenticação em dois fatores.</li>
+<li>Revise acessos regularmente.</li>
+<li>Tenha um e-mail de recuperação.</li>
+</ul>
+</div>
+
+<div class="card success">
+<h3>📱 Segurança no Celular</h3>
+<ul>
+<li>Use biometria ou PIN.</li>
+<li>Instale apps apenas das lojas oficiais.</li>
+<li>Revise permissões dos aplicativos.</li>
+<li>Mantenha o sistema atualizado.</li>
+</ul>
+</div>
+
+<div class="card success">
+<h3>💳 Segurança Bancária</h3>
+<ul>
+<li>Nunca compartilhe códigos SMS.</li>
+<li>Confirme pedidos de PIX.</li>
+<li>Ative notificações bancárias.</li>
+<li>Monitore extratos frequentemente.</li>
+</ul>
+</div>
+
+<div class="card success">
+<h3>🌐 Redes Sociais</h3>
+<ul>
+<li>Perfil privado quando possível.</li>
+<li>Não exponha documentos.</li>
+<li>Evite divulgar localização em tempo real.</li>
+<li>Ative autenticação em dois fatores.</li>
+</ul>
+</div>
+</div>
+
+<h2 id="hackeado" class="section-title">🚨 Fui Hackeado! O que fazer?</h2>
+
+<div class="card warning">
+<ol>
+<li>Desconecte o dispositivo da internet.</li>
+<li>Troque imediatamente a senha do e-mail principal.</li>
+<li>Ative autenticação em dois fatores.</li>
+<li>Revogue sessões abertas.</li>
+<li>Avise seus contatos.</li>
+<li>Registre evidências.</li>
+<li>Faça Boletim de Ocorrência.</li>
+</ol>
+</div>
+
+<h2 id="casos" class="section-title">📋 Situações Reais e Soluções</h2>
+
+<div class="grid">
+
+<div class="card warning">
+<h3>📱 Hackearam meu WhatsApp</h3>
+<p><span class="badge red">Alto risco</span></p>
+<ul>
+<li>Tente recuperar a conta.</li>
+<li>Ative verificação em duas etapas.</li>
+<li>Avise familiares e amigos.</li>
+<li>Registre ocorrência.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>📞 Clonaram meu Número</h3>
+<ul>
+<li>Contate a operadora imediatamente.</li>
+<li>Bloqueie a linha.</li>
+<li>Troque senhas importantes.</li>
+<li>Evite autenticação por SMS.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>📧 Invadiram meu E-mail</h3>
+<ul>
+<li>Troque a senha.</li>
+<li>Encerre sessões abertas.</li>
+<li>Ative 2FA.</li>
+<li>Verifique contas vinculadas.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>💳 Vazaram Dados Bancários</h3>
+<ul>
+<li>Bloqueie cartões.</li>
+<li>Avise o banco.</li>
+<li>Monitore movimentações.</li>
+<li>Conteste operações suspeitas.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>💸 PIX Indevido</h3>
+<ul>
+<li>Contate o banco imediatamente.</li>
+<li>Solicite análise de fraude.</li>
+<li>Faça B.O.</li>
+<li>Guarde comprovantes.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>🪪 Roubaram meu CPF</h3>
+<ul>
+<li>Monitore consultas ao CPF.</li>
+<li>Registre ocorrência.</li>
+<li>Conteste fraudes.</li>
+<li>Guarde evidências.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>📸 Invadiram meu Instagram</h3>
+<ul>
+<li>Use a recuperação oficial.</li>
+<li>Troque senha.</li>
+<li>Ative 2FA.</li>
+<li>Avise seguidores.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>🎮 Roubaram minha Conta de Jogo</h3>
+<ul>
+<li>Contate o suporte.</li>
+<li>Apresente comprovantes.</li>
+<li>Troque senhas.</li>
+<li>Ative proteção extra.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>🎭 Perfil Falso se Passando por Mim</h3>
+<ul>
+<li>Denuncie a conta.</li>
+<li>Avise seus contatos.</li>
+<li>Registre evidências.</li>
+<li>Faça B.O.</li>
+</ul>
+</div>
+
+<div class="card warning">
+<h3>🦠 Ransomware</h3>
+<ul>
+<li>Desconecte da internet.</li>
+<li>Não pague o resgate.</li>
+<li>Use backups.</li>
+<li>Procure ajuda especializada.</li>
+</ul>
+</div>
+
+</div>
+
+<h2 id="golpes" class="section-title">🎣 Golpes Mais Comuns</h2>
+
+<div class="grid">
+<div class="card attention">
+<h3>Falso Suporte Técnico</h3>
+<p>Nunca forneça senhas ou códigos.</p>
+</div>
+
+<div class="card attention">
+<h3>Golpe do PIX Urgente</h3>
+<p>Confirme por ligação antes de enviar dinheiro.</p>
+</div>
+
+<div class="card attention">
+<h3>Boleto Falso</h3>
+<p>Verifique beneficiário e CNPJ.</p>
+</div>
+
+<div class="card attention">
+<h3>Phishing</h3>
+<p>Confira cuidadosamente o endereço do site.</p>
+</div>
+
+<div class="card attention">
+<h3>Emprego Falso</h3>
+<p>Empresas legítimas não cobram para contratar.</p>
+</div>
+
+<div class="card attention">
+<h3>Investimento Fraudulento</h3>
+<p>Desconfie de lucros garantidos.</p>
+</div>
+</div>
+
+<h2 id="checklist" class="section-title">✅ Checklist Pós-Invasão</h2>
+
+<div class="card">
+<ul>
+<li>Trocar todas as senhas importantes.</li>
+<li>Ativar autenticação em dois fatores.</li>
+<li>Revogar sessões abertas.</li>
+<li>Verificar dispositivos conectados.</li>
+<li>Avisar familiares e amigos.</li>
+<li>Registrar evidências.</li>
+<li>Fazer Boletim de Ocorrência.</li>
+<li>Monitorar contas bancárias.</li>
+<li>Monitorar CPF por alguns meses.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>📞 Ajuda Oficial</h3>
+<p>SaferNet Brasil, bancos, operadoras, plataformas afetadas e Delegacias de Crimes Cibernéticos podem auxiliar em situações de fraude ou invasão.</p>
+</div>
+
+</div>
+
+<footer>
+<p>Manual de Emergência Digital © 2026</p>
+<p>Compartilhe conhecimento. Segurança digital salva pessoas.</p>
+
+<div class="credits">
+Projeto desenvolvido por:
+Estevan Bertoso • Erick Mendonça • Rodrigo Lordi • João Rafael • Gustavo Lui
+</div>
+
+</footer>
+
+</body>
+</html>
